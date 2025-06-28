@@ -11,10 +11,14 @@
         <h1>Generate a <br><span>Random Password</span></h1>
 
         <div class="display">
-            <input type="text" readonly >
+            <input type="text" placeholder="Password" readonly id="password">
+            <img src="copy.png" alt="" onclick="copyPassword()">
         </div>
 
-        <a href="#"><i class="fa-solid fa-bolt"></i> Generate Password</a>
+        <div class="button">
+
+            <a href="#" onclick="createPassword()"><i class="fa-solid fa-bolt"></i> Generate Password</a>
+        </div>
     </div>
 
     <script src="https://kit.fontawesome.com/fbc44e03f7.js" crossorigin="anonymous"></script>
