@@ -49,7 +49,7 @@
 }
 
 .input-box button{
-    background: #ffff76;
+    background: #ffff66;
     border: 0;
     outline: 0;
     padding: 15px 30px;
@@ -72,6 +72,11 @@
     background-position: calc(100% - 10px);
     background-size: 30px;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: #fdfd20;
+    transition: 0.2s ease-out;
 }
 
 #result{
