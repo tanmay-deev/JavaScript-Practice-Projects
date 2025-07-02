@@ -26,13 +26,19 @@ a{
     font-size: 1.7rem;
 }
 
-.
+/* .right-side{
+    width: 50vw;
+}
+
+.image img{
+    width: 300px;
+    height: 200px;
+} */
 
 .left-side{
-    width: 50vw;
+    width: 90vw;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 
