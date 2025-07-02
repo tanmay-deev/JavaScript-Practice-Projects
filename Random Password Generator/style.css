@@ -26,6 +26,12 @@ a{
     font-size: 1.7rem;
 }
 
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 
 
 h1 span{
