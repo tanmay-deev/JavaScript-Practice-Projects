@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .dark{
     background-color: black;
     color: white;
@@ -6,4 +12,22 @@
 .light{
     background-color: white;
     color: black;
+}
+
+div{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
