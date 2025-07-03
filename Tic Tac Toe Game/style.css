@@ -31,5 +31,53 @@ body{
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    font-weight: 700;
+    background-color: rgb(159, 159, 159);
+    border: none;
+    cursor: pointer;
+}
+
+#new-btn{
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    font-weight: 700;
+    background-color: rgb(159, 159, 159);
+    border: none;
+    cursor: pointer;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vmin;
+}
+
+.msg-container button{
+    color: #ffffc7;
+}
+
+/* .hide2{
+    display: none;
+} */
+
+.hide{
+    display: none;
 }
