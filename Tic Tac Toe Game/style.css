@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #548687;
+    background-color: #346566;
     text-align: center;
     margin-top: 30px;
 }
@@ -41,7 +41,7 @@ body{
     font-size: 1rem;
     border-radius: 0.8rem;
     font-weight: 700;
-    background-color: rgb(159, 159, 159);
+    background-color: #ffffc7;
     border: none;
     cursor: pointer;
 }
@@ -58,7 +58,8 @@ body{
 
 #msg{
     color: #ffffc7;
-    font-size: 5vmin;
+    font-weight: 700;
+    font-size: 7vmin;
 }
 
 .msg-container{
@@ -67,11 +68,16 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2vmin;
+    gap: 3vmin;
 }
 
 .msg-container button{
     color: #ffffc7;
+    transition: 0.2s ease-out;
+}
+
+.msg-container button:hover{
+    opacity: 70%;
 }
 
 /* .hide2{
